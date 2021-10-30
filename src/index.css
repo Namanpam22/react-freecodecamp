@@ -19,14 +19,14 @@ body {
   display: grid;
   gap: 2rem;
 }
-@media screen and (min-width:320px) {
-  .bookrow{
-    grid-template-columns: repeat(1,1fr);
+@media screen and (min-width: 320px) {
+  .bookrow {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-@media screen and  (min-width:481px) {
-  .bookrow{
-    grid-template-columns: repeat(2,1fr);
+@media screen and (min-width: 481px) {
+  .bookrow {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 768px) {
@@ -48,4 +48,7 @@ body {
   color: #f17d98;
   font-size: 0.75rem;
   margin-top: 0.25rem;
+}
+.book p {
+  margin-top: 0.5rem;
 }
